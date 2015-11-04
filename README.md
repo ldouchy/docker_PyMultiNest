@@ -1,8 +1,6 @@
 # let's play with Docker
 
-Links:
-
-[Official docker documentation](https://docs.docker.com/)
+Links for the [official docker documentation](https://docs.docker.com/):
 
 [Install docker](https://docs.docker.com/engine/installation/)
 
@@ -11,30 +9,28 @@ Links:
 [Build a container](https://docs.docker.com/reference/builder/)
 
 
-
-# Install docker:
+## Install docker:
 Short version (may not be the last version):
   Fedora/RedHat:
 
 	$ sudo dnf install docker
 
-# Run docker daemon:
+## Run docker daemon:
   Fedora/RedHat:
 
 	$ sudo systemctl start docker
 
-# Run an interactive shell in a container:
+## Run an interactive shell in a container:
   Short version:
 	docker run -t -i <container_ID> /bin/bash
 
 	docker run -t -i ubuntu /bin/bash
 
-Build a container:
-
-	https://docs.docker.com/reference/builder/
-
-Short version:
+## Build a container:
+  Short version:
 	docker build <path_to_the_Dokerfile>
+
+
 
 MultiNest docker image creation:
 
