@@ -47,8 +47,6 @@ Short version (may not be the last version):
 
 	Successfully built e553342157db
 
-## Run the container with a 
-
-With the following command you will Run the container and log into with a bash command line::
+## Run the container with an interractive shell
 
 	sudo docker run -t -i e553342157db /bin/bash 
