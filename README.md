@@ -33,7 +33,7 @@ Short version (may not be the last version):
 	docker build <path_to_the_Dokerfile>
 
 
-# PyMultiNest docker image creation:
+# [PyMultiNest](https://github.com/JohannesBuchner/PyMultiNest) docker image creation:
 
 ## Clone the multinest git repo
 
