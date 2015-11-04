@@ -12,7 +12,7 @@ WORKDIR /opt
 
 # Install MultiNest prerequisites
 
-RUN apt-get update && apt-get install -y python-scipy python-numpy python-matplotlib python-progressbar ipython libblas3 libblas-dev liblapack3 liblapack-dev libatlas3-base libatlas-dev cmake build-essential git gfortran r-base r-base-dev
+RUN apt-get update && apt-get install -y python-scipy python-numpy python-matplotlib python-progressbar ipython libblas3 libblas-dev liblapack3 liblapack-dev libatlas3-base libatlas-dev cmake build-essential git gfortran
 
 # Copy MultiNest install script
 
