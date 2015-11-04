@@ -1,9 +1,13 @@
 #!/bin/bash
 # 
-# necessary packages:
-# sudo apt-get install python-{scipy,numpy,matplotlib,progressbar} ipython libblas{3,-dev} liblapack{3,-dev} libatlas{3-base,-dev} cmake build-essential git gfortran r-base r-base-dev 
+# Based on the work of Johannes BUCHNER
+# https://gist.github.com/JohannoesBuchner/6579476
+#
+# Modification by Laurent DOUCHY
+#
+# - Force install on /opt
+# - Remove bridge to R and Rserve
 # 
-
 
 echo 'checking installed software requirements'
 for c in R cmake; do
@@ -34,15 +38,4 @@ python setup.py install --user
 export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:$MULTINEST/lib #:$PWD/multinest_bridge/
 popd
 python -c 'import pymultinest' || exit 1
-
-#git clone https://github.com/JohannesBuchner/RMultiNest.git
-#pushd RMultiNest
-#make rbridge || exit 1
-
-#echo 'Installing Rserve package (do it manually if fails)'
-#LIB=$HOME/R/library/
-#mkdir -p $LIB && echo R_LIBS_USER=$LIB >> $HOME/.Renviron && R CMD INSTALL Rserve -l $LIB || exit 1
-#echo 'Testing'
-#make test
-#popd
 
