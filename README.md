@@ -1,10 +1,8 @@
 # let's play with Docker
 
-Official link [docker documentation](https://docs.docker.com/)
+[Official docker documentation](https://docs.docker.com/)
 
-Install docker:
-
-	(https://docs.docker.com/engine/installation/)
+[Install docker](https://docs.docker.com/engine/installation/)
 
 Short version (may not be the last version):
 
@@ -19,8 +17,7 @@ Run docker daemon:
 	$ sudo systemctl start docker
 
 Run an interactive shell in a container:
-
-	https://docs.docker.com/engine/userguide/basics/
+	(https://docs.docker.com/engine/userguide/basics/)
 
 Short version:
 	docker run -t -i <container_ID> /bin/bash
