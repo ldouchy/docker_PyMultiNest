@@ -1,12 +1,10 @@
 # let's play with Docker
 
-Official link:
-
-	https://docs.docker.com/
+Official link [docker documentation (https://docs.docker.com/)]
 
 Install docker:
 
-	https://docs.docker.com/engine/installation/
+	(https://docs.docker.com/engine/installation/)
 
 Short version (may not be the last version):
 
