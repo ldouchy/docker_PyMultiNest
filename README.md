@@ -1,6 +1,6 @@
 # let's play with Docker
 
-Links for the [official docker documentation](https://docs.docker.com/):
+Links to the [official docker documentation](https://docs.docker.com/):
 
 [Install docker](https://docs.docker.com/engine/installation/)
 
@@ -21,28 +21,34 @@ Short version (may not be the last version):
 	$ sudo systemctl start docker
 
 ## Run an interactive shell in a container:
+
   Short version:
 	docker run -t -i <container_ID> /bin/bash
 
 	docker run -t -i ubuntu /bin/bash
 
 ## Build a container:
+
   Short version:
 	docker build <path_to_the_Dokerfile>
 
 
 
-MultiNest docker image creation:
+# PyMultiNest docker image creation:
 
-Clone the multinest git repo
+## Clone the multinest git repo
 
-Go inside and execute:
+	git clone https://github.com/ldouchy/docker_PyMultiNest.git
 
-	docker build ./
+## Run the build:
 
-You should obtain the container ID:
+	docker build <path_to_docker_PyMultiNest>
+
+  You should obtain the container ID:
 
 	Successfully built e553342157db
+
+## Run the container with a 
 
 With the following command you will Run the container and log into with a bash command line::
 
