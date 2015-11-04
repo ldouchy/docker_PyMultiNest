@@ -47,6 +47,9 @@ Short version (may not be the last version):
 
 	Successfully built e553342157db
 
+## In order to run your code you need to [customize the Dockerfile] with your own code(https://github.com/ldouchy/docker_PyMultiNest/tree/master/PyMultiNest_dockerfile)
+
 ## Run the container with an interractive shell
 
 	sudo docker run -t -i e553342157db /bin/bash 
+
