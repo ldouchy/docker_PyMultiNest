@@ -1,6 +1,6 @@
 # let's play with Docker
 
-Official link [docker documentation (https://docs.docker.com/)]
+Official link [docker documentation](https://docs.docker.com/)
 
 Install docker:
 
