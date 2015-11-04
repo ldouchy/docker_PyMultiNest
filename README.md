@@ -35,7 +35,7 @@ Short version (may not be the last version):
 
 # [PyMultiNest](https://github.com/JohannesBuchner/PyMultiNest) docker image creation:
 
-[PyMultiNest documentation](https://johannesbuchner.github.io/PyMultiNest/index.html)
+[PyMultiNest documentation](https://johannesbuchner.github.io/PyMultiNest/index.html), 
 [Buchner et al. 2014, A&A](http://www.aanda.org/articles/aa/abs/2014/04/aa22971-13/aa22971-13.html)
 
 ## Clone the multinest git repo
