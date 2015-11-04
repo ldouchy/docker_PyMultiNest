@@ -1,25 +1,29 @@
 # let's play with Docker
 
+Links:
 [Official docker documentation](https://docs.docker.com/)
 
 [Install docker](https://docs.docker.com/engine/installation/)
 
-Short version (may not be the last version):
+[Docker basics](https://docs.docker.com/engine/userguide/basics/)
 
+[Build a container](https://docs.docker.com/reference/builder/)
+
+
+
+# Install docker:
+Short version (may not be the last version):
   Fedora/RedHat:
 
 	$ sudo dnf install docker
 
-Run docker daemon:
-
+# Run docker daemon:
   Fedora/RedHat:
 
 	$ sudo systemctl start docker
 
-Run an interactive shell in a container:
-	(https://docs.docker.com/engine/userguide/basics/)
-
-Short version:
+# Run an interactive shell in a container:
+  Short version:
 	docker run -t -i <container_ID> /bin/bash
 
 	docker run -t -i ubuntu /bin/bash
