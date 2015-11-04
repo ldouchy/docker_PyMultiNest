@@ -37,6 +37,7 @@ Short version (may not be the last version):
 
 ## Clone the multinest git repo
 
+	cd <work_space>
 	git clone https://github.com/ldouchy/docker_PyMultiNest.git
 
 ## Run the build:
@@ -47,7 +48,9 @@ Short version (may not be the last version):
 
 	Successfully built e553342157db
 
-## [Customize the Dockerfile](https://github.com/ldouchy/docker_PyMultiNest/tree/master/PyMultiNest_dockerfile) to add your own code
+## Customize the Dockerfile to add your own code
+
+
 
 ## Run the container with an interractive shell
 
