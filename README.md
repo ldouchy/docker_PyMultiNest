@@ -10,7 +10,7 @@
 
 ## Run the build:
 
-        docker build <path_to_docker_PyMultiNest>
+        docker build \<path_to_docker_PyMultiNest\>
 
   You should obtain the container ID:
 
@@ -51,12 +51,13 @@ Short version (may not be the last version):
 ## Run an interactive shell in a container:
 
   Short version:
-	docker run -t -i <container_ID> /bin/bash
+	docker run -t -i \<container_ID\> /bin/bash
 
 	docker run -t -i ubuntu /bin/bash
 
 ## Build a container:
 
   Short version:
-	docker build <path_to_the_Dokerfile>
+	docker build \<path_to_the_Dokerfile\>
+
 
