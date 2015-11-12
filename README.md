@@ -1,3 +1,31 @@
+# [PyMultiNest](https://github.com/JohannesBuchner/PyMultiNest) docker image creation:
+
+[PyMultiNest documentation](https://johannesbuchner.github.io/PyMultiNest/index.html),
+[Buchner et al. 2014, A&A](http://www.aanda.org/articles/aa/abs/2014/04/aa22971-13/aa22971-13.html)
+
+## Clone the multinest git repo
+
+        cd <work_space>
+        git clone https://github.com/ldouchy/docker_PyMultiNest.git
+
+## Run the build:
+
+        docker build <path_to_docker_PyMultiNest>
+
+  You should obtain the container ID:
+
+        Successfully built e553342157db
+
+## Customize the Dockerfile to add your own code
+
+
+
+## Run the container with an interractive shell
+
+        sudo docker run -t -i e553342157db /bin/bash
+
+
+
 # let's play with Docker
 
 Links to the [official docker documentation](https://docs.docker.com/):
@@ -31,31 +59,4 @@ Short version (may not be the last version):
 
   Short version:
 	docker build <path_to_the_Dokerfile>
-
-
-# [PyMultiNest](https://github.com/JohannesBuchner/PyMultiNest) docker image creation:
-
-[PyMultiNest documentation](https://johannesbuchner.github.io/PyMultiNest/index.html), 
-[Buchner et al. 2014, A&A](http://www.aanda.org/articles/aa/abs/2014/04/aa22971-13/aa22971-13.html)
-
-## Clone the multinest git repo
-
-	cd <work_space>
-	git clone https://github.com/ldouchy/docker_PyMultiNest.git
-
-## Run the build:
-
-	docker build <path_to_docker_PyMultiNest>
-
-  You should obtain the container ID:
-
-	Successfully built e553342157db
-
-## Customize the Dockerfile to add your own code
-
-
-
-## Run the container with an interractive shell
-
-	sudo docker run -t -i e553342157db /bin/bash 
 
