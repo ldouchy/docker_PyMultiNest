@@ -10,7 +10,7 @@
 
 ## Run the build:
 
-        docker build \<path_to_docker_PyMultiNest\>
+        docker build <path_to_docker_PyMultiNest>
 
   You should obtain the container ID:
 
