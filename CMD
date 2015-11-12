@@ -1,0 +1,6 @@
+# Run PyMultiNest demo
+
+$ docker run `docker images -q | head -n1` python pymultinest_demo_minimal.py
+
+
+

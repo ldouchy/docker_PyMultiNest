@@ -10,7 +10,7 @@
 # 
 
 echo 'checking installed software requirements'
-for c in R cmake; do
+for c in cmake; do
   if ! hash $c; then echo "install '$c' first"; exit 1; fi
 done
 echo 'checking python package requirements'
