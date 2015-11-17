@@ -38,7 +38,7 @@ Links to the [official docker documentation](https://docs.docker.com/):
 [Docker basics](https://docs.docker.com/engine/userguide/basics/)
 
 
-# build your hown PyMultiNest container:
+# Build your hown PyMultiNest container:
 
 
 ## Clone the PyMultiNest git repo:
@@ -72,7 +72,4 @@ Links to the [official docker documentation](https://docs.docker.com/):
 ## Customize the Dockerfile to add your own code
 
 ## Save your PyMultiNest instance:
-
-# let's play with Docker
-
 
