@@ -2,7 +2,7 @@
 
 [PyMultiNest documentation](https://johannesbuchner.github.io/PyMultiNest/index.html)
 
-If you find PyMultiNest enables your research, please consider citing my publication to give back for the time invested:
+If you find PyMultiNest enables your research, please consider citing this publication to give back for the time invested:
 [Buchner et al. 2014, A&A](http://www.aanda.org/articles/aa/abs/2014/04/aa22971-13/aa22971-13.html)
 
 
